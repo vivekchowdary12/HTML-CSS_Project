@@ -1,0 +1,370 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+.navbar{
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+.web{
+    font-size: x-large;
+    cursor: pointer;
+}
+.icons .user{
+    color: white;
+}
+.web:hover{
+    color: rgb(255, 99, 71);
+    transform: scale(1.1);
+    transition: ease-in-out 0.5ms 0.5ms;
+}
+.search:hover{
+    color: rgb(255, 99, 71);
+    transform: scale(1.5);
+    transition: ease-in-out 0.5ms 0.5ms;
+}
+.cart:hover{
+    color: rgb(255, 99, 71);
+    transform: scale(1.5);
+    transition: ease-in-out 0.5ms 0.5ms;
+}
+.user:hover{
+    color: rgb(255, 99, 71);
+    transform: scale(1.5);
+    transition: ease-in-out 0.5ms 0.5ms;
+}
+
+.icons{
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    margin-left: 600px;
+}
+.overear{
+    color: rgb(97, 95, 95);
+    font-size: 200px;
+    margin: 50px;
+    margin-left: 80px;
+    color: rgba(56, 54, 54, 0.907);
+    mix-blend-mode:lighten;
+}
+.jbl660nc{
+     height: 400px;
+    width: 500px;
+    margin-left: 600px;
+    margin-top: -300px;
+}
+
+.featured{
+    color: white;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+.containerCart{
+    height: 500px;
+    width: 100%;
+    /* background-color: azure; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cart1{
+    height: 200px;
+    width: 80%;
+    margin-bottom: 50px;
+    
+}
+.cart1h1{
+    color: white;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.cart1 img{
+    height: 120px;
+    width: 100%;
+    margin-top: 40px;
+}
+.cart2{
+    height: 300px;
+    width: 90%;
+}
+.cart2 h1{
+    color: white;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.cart2img img{
+    height: 120px;
+    width: 100%;
+    margin-top: 40px;
+}
+.cart3{
+    height: 400px;
+     width: 100%; 
+}
+
+.cart3 h1{
+    color: white;
+    font-size: medium;
+    height: 30px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart3img img{
+    height: 250px;
+    width: 100%;
+    margin-top: 25px;
+} 
+.cart3icon{
+    color: white;
+    height: 30px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+strike{
+    font-size: small;
+    
+}
+.cart4{
+    height: 300px;
+    width: 90%;
+}
+.cart4 h1{
+    color: white;
+    font-size: medium;
+    height: 30px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.cart4img img{
+    height: 120px;
+    width: 100%;
+    margin-top: 25px;
+}
+.cart5{
+    height: 200px;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.cart5 h1{
+    color: white;
+    font-size: medium;
+    height: 30px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.cart5img img{
+    height: 120px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.top{
+    color: white;
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.buttons{
+    height: 40px;
+    margin: 40px;
+    margin-top: 100px;
+    display: flex;
+    gap: 90px;
+}
+.All{
+    color: white;
+    font-size: larger;
+    width: 60px;
+    border: none;
+     border-radius: 3px;
+    background-color: rgb(183, 50, 27);
+    margin-left: 15%;
+}
+.HeadPhones,.Earbuds,.Earphones,.Neckbands{
+    color: white;
+    font-size: large;
+    border: none;
+     border-radius: 3px;
+     width: 100px ;
+}
+.HeadPhones:hover{
+    cursor: pointer;
+    background-color: rgb(183, 50, 27);
+}
+.Earbuds:hover{
+    cursor: pointer;
+    background-color: rgb(183, 50, 27);
+}
+.Earphones:hover{
+    cursor: pointer;
+    background-color: rgb(183, 50, 27);
+}
+.Neckbands:hover{
+    cursor: pointer;
+    background-color: rgb(183, 50, 27);
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container1{
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    height: 390px;
+    width: 350px;
+    background-color: rgb(51, 48, 48);
+    border-radius: 10px;
+    
+}
+.login{
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+.text{
+    font-size: 15px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.username,.password,.button{
+  height: 30px;
+  width:80%;
+  margin-top: 30px;
+  margin-left: 30px;
+  border: 1px solid white;
+  background-color: rgb(51, 48, 48);
+}
+.button{
+    color: white;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: black;
+}
+.container3{
+height: 40px;
+width: 100%;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+/* background-color: blanchedalmond; */
+
+}
+.container4{
+/* background-color: aqua; */
+height: 30px;
+width: 100%;
+}
+.dash{
+    margin-left: 66px;
+    color: white;
+}
+.container5{
+/* background-color: aquamarine; */
+height: 30px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+.container6{
+/* background-color: rgb(204, 204, 19); */
+height: 30px;
+width: 100%;
+color: white;
+}
+.lastcontainer{
+    height: 60px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.firstcontainer{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(112, 112, 236);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size:x-small;
+    border-radius: 5px;
+}
+.secoundcontainer{
+    height: 30px;
+    width: 100%;
+    background-color: tomato;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size:x-small;
+    border-radius: 5px;
+}
+.thirdcontainer{
+    height: 30px;
+    width: 100%;
+    background-color: skyblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size:x-small;
+    border-radius: 5px;
+
+}
+
+
