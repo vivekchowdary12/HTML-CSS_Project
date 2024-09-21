@@ -1,22 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cart page</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <nav class="navbar"></nav>
+
+<body style="background-color: black;">
+
+    <nav class="navbar">
         <a href="./index.html " class="tech">Tech-Support</a>
         <div class="icons">
             <i class="fa-solid fa-magnifying-glass search"></i>
-            <i class="fa-solid fa-cart-shopping cart"></i>
+            <a href="./cart.html"><i class="fa-solid fa-cart-shopping cart"></i></a>
             <a href="./loginpage.html"><i class="fa-solid fa-user user"></i></a>
         </div>
     </nav>
+
+    <div class="cart-page-main-container">
+        <div class="cart-page-images">
+
+            <div class="cart-page-sub-container1">
+
+                <img src="./assest/images[1]/images/products/boat518-1.png" alt="" class="cart-page-sub-images">
+                <p class="cart-page-sub-p">boAt Rockerz 518 On-Ear Wireless Headphones</p><i
+                    class="fa-solid fa-trash trash"></i>
+                <h1 class="saas"><i class="fa-solid fa-indian-rupee-sign cart-page-sub-offer-price"></i>1999</h1><strike
+                    class="cart-page-sub-strike">3999</strike>
+                <div class="no-of-items">
+                    <div class="minus">-</div>
+                    <div class="numbers">1</div>
+                    <div class="plus">+</div>
+                </div>
+
+            </div>
+            <hr class="hr">
+
+            <div class="cart-page-sub-container2">
+                <img src="./assest/images[1]/images/products/jbl760nc-1.png" alt="" class="cart-page-sub-images">
+                <p class="cart-page-sub-p">boAt Rockerz 518 On-Ear Wireless Headphones</p><i
+                    class="fa-solid fa-trash trash"></i>
+                <h1 class="saas"><i class="fa-solid fa-indian-rupee-sign cart-page-sub-offer-price"></i>2999</h1><strike
+                    class="cart-page-sub-strike">3999</strike>
+                <div class="no-of-items">
+                    <div class="minus">-</div>
+                    <div class="numbers">1</div>
+                    <div class="plus">+</div>
+                </div>
+            </div>
+            <hr class="hr">
+            <div class="cart-page-sub-container3">
+                <img src="./assest/images[1]/images/products/boat131-3.png" alt="" class="cart-page-sub-images">
+                <p class="cart-page-sub-p">boAt Rockerz 518 On-Ear Wireless Headphones</p><i
+                    class="fa-solid fa-trash trash"></i>
+                <h1 class="saas"><i class="fa-solid fa-indian-rupee-sign cart-page-sub-offer-price"></i>999</h1><strike
+                    class="cart-page-sub-strike">1999</strike>
+
+                <div class="no-of-items">
+                    <div class="minus">-</div>
+                    <div class="numbers">1</div>
+                    <div class="plus">+</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="cart-pages-payable-amount">
+            <pre class="cart-pages-payable-p">Order Summary        ( 3 items )</pre>\
+            <pre class="cart-pages-payable-pre">Original Price                                 ₹25,969</pre>
+            <div class="cart-pages-discount">
+                <p class="cart-pages-discount-1">Discount</p>
+                <p class="cart-pages-discount-2">- ₹12,273</p>
+            </div>
+            <div class="cart-pages-delivary-charge">
+                <div class="cart-pages-discount">
+                    <p class="cart-pages-discount-1">Delivery</p>
+                    <p class="cart-pages-discount-2">Free</p>
+                </div>
+            </div>
+            <hr class="hr1">
+            <pre class="cart-pages-payable-pre">Total Price                                  ₹13,969</pre>
+            <button class="ckeck-out">Check Out</button>
+        </div>
+
+    </div>
+
+    <div class="services">
+        <div class="Express_delivary_info">
+            <i class="fa-solid fa-truck truck"></i>
+            <div class="Express_delivary_fonts">
+                <h4 class="truckfont1">Express delivary</h4>
+                <p class="truckfont2">Ships in 24 Hours</p>
+            </div>
+        </div>
+        <div class="Brand_waranty_info">
+            <i class="fa-solid fa-shield-halved sheild"></i>
+            <div class="Brand_waranty_fonts">
+                <h4 class="sheildfont1">Brand Warranty</h4>
+                <p class="sheildfont2">100% Original products</p>
+            </div>
+        </div>
+        <div class="Exciting_deals_info">
+            <i class="fa-solid fa-tags tags"></i>
+            <div class="Exciting_deals_fonts">
+                <h4 class="tagsfont1">Exciting Deals</h4>
+                <p class="tagsfont2">On all prepaid orders</p>
+            </div>
+        </div>
+        <div class="Secure_payments_info">
+            <i class="fa-solid fa-credit-card card"></i>
+            <div class="Secure_payments_fonts">
+                <h4 class="cardsfont1">Secure Payments</h4>
+                <p class="cardsfont2"> SSL / Secure certificate</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer_discription1">
+            <h1 class="footerh1">Tech-Support</h1>
+            <p class="footerp">Subscribe to our Email alerts to receive early <br> discount offers, and new products
+                info.</p>
+            <input type="password" id="text" placeholder="   Email Address*" class="footer_email">
+            <button class="footer_button">Subscribe</button>
+        </div>
+        <div class="footer_discription2">
+            <h3 class="footer2h3">Help</h3>
+            <ul class="footerul">
+                <li>FAQs</li>
+                <li> Track Order</li>
+                <li>Cancel Order</li>
+                <li>Return Order</li>
+                <li>Warranty Info</li>
+            </ul>
+        </div>
+
+        <div class="footer_discription3">
+            <h3 class="footer2h3">Policies</h3>
+            <ul class="footerul">
+                <li>Return Policy</li>
+                <li> Security</li>
+                <li>Sitemap</li>
+                <li>Privacy Policy</li>
+                <li> Terms & Conditions</li>
+            </ul>
+        </div>
+        <div class="footer_discription4">
+            <h3 class="footer2h3">Company</h3>
+            <ul class="footerul">
+                <li>About Us</li>
+                <li> Contact Us</li>
+                <li>Service Centres</li>
+                <li>Careers</li>
+                <li> Affiliates</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr class="hr">
+    <div class="footer2">
+        <h1 class="footer2h1">2024 | XBeat. All Rights Reserved. Built by | Sakhamudi vivek</h1>
+        <div class="footericons">
+            <i class="fa-brands fa-facebook-f footer_facebook "></i>
+            <i class="fa-brands fa-twitter footer_twitter"></i>
+            <i class="fa-brands fa-instagram footer_instagram"></i>
+            <i class="fa-brands fa-linkedin-in footer_linkdin"></i>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
